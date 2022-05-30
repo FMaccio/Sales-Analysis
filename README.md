@@ -18,6 +18,8 @@ In this Analysis the informations was presented as a List of Dictionaries. An ex
 The asignment was given in spanish, but the code can be followed and understood by anyone.
 The goal of the analysis was to answer 10 questions regarding the clients behaviour when purchasing a product. 
 
+#### Questions
+
 **1)** ¿Cuál es el mes que reporta **la mayor cantidad de productos**? 
 **2)** ¿Qué ganancia reporta dicho mes?  
 **3)** ¿Qué porcentaje del total de las ventas representa?  
@@ -29,7 +31,9 @@ The goal of the analysis was to answer 10 questions regarding the clients behavi
 **9)** ¿Cuál es la relación entre el precio del producto más vendido y el del menos vendido?
 **10)** ¿Cuál es la órden con mayor cantidad de productos?
 
-
+### Method
+The method used to respond the questions is self explainaid by the humble code. For the mayority of the questions a list was created with the data that was needed for the question. 
+For example, Q1 asks about the month with the most sales. It is here to take into account the difference between sale (dictionary) and order (id). In this case, there are as many sales as there are dictionarys. The insformation regarding the month could be obtained by chopping the Order Date until only having the month. Then, it was to count how many times a sale is made per month. Month 12 (december) was found to be the one with the most sales. The rest of the questions can be solved more or less in a similar way.
 
 
 ### Notes:
